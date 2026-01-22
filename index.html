@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>
+        Jogo da velha
+    </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+
+<body>
+
+    <h1>
+        Jogo da Velha
+    </h1>
+
+    <div id="placar">
+        <h2>Placar</h2>
+        <div class="placar-pontos">
+            <div class="placar-jogador">
+                <span>Jogador X:</span>
+                <span id="pontos-x">0</span>
+            </div>
+            <div class="placar-jogador">
+                <span>Jogador O:</span>
+                <span id="pontos-o">0</span>
+            </div>
+            <div class="placar-jogador">
+                <span>Velha:</span>
+                <span id="pontos-velha">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="jogador">
+        <label id="jogador-selecionado">
+
+        </label>
+    </div>
+
+    <div class="vencedor">
+        <label>
+            Vencedor:
+        </label>
+        <label id="vencedor-selecionado">
+
+        </label>
+    </div>
+
+    <div id="tela-selecao">
+        <h2>Escolha seu jogador:</h2>
+        <div class="button-container">
+            <button id="jogador-x">X</button>
+            <button id="jogador-o">O</button>
+        </div>
+    </div>
+
+    <div id="tela-jogo">
+        <div>
+            <div id="1" class="quadrado">-</div>
+            <div id="2" class="quadrado">-</div>
+            <div id="3" class="quadrado">-</div>
+        </div>
+
+        <div>
+            <div id="4" class="quadrado">-</div>
+            <div id="5" class="quadrado">-</div>
+            <div id="6" class="quadrado">-</div>
+        </div>
+
+        <div>
+            <div id="7" class="quadrado">-</div>
+            <div id="8" class="quadrado">-</div>
+            <div id="9" class="quadrado">-</div>
+        </div>
+
+        <div class="game-controls">
+            <button id="novo-jogo">
+                Novo Jogo
+            </button>
+            <button id="proxima-partida">
+                Próxima Partida
+            </button>
+        </div>
+    </div>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>
