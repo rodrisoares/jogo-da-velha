@@ -14,9 +14,9 @@ Este é um projeto simples de Jogo da Velha (Tic-Tac-Toe) implementado com HTML,
 
 ## 💻 Tecnologias Utilizadas 
 
-*   **HTML5:** 
-*   **CSS3:** 
-*   **JavaScript:** 
+*   **HTML5** 
+*   **CSS3** 
+*   **JavaScript** 
 
 
 ## 📸 Screenshot 
